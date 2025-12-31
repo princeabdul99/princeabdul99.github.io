@@ -34,6 +34,7 @@ title: "Home"
           <!-- <i class="fa-brands fa-linkedin"></i> -->
           <ion-icon class="cta-link--icon" name="logo-linkedin"></ion-icon>
         </a>
+        &nbsp; &#124; &nbsp;
         <a href="https://github.com/princeabdul99" target="_blank" aria-label="Github">
           <!-- <i class="fa-brands fa-github"></i> -->
           <ion-icon class="cta-link--icon" name="logo-github"></ion-icon>
