@@ -180,7 +180,8 @@ a { color: #1a140d; text-decoration: none; }
   padding: 1rem 1rem 1.2rem;
 }
 .card-footer{
-  align-self: flex-end;
+  align-self: center;
+  margin-bottom: 1rem;
 }
 
 .card-title {
@@ -200,9 +201,10 @@ a { color: #1a140d; text-decoration: none; }
 } 
 
 .card-tags {
-  margin-top: .55rem;
+  margin: .55rem 0;
   /* font-size: .9rem; */
   font-size: 1.2rem;
+    font-weight: 700;
   color: #1a140d;
 }
 

@@ -223,68 +223,6 @@
 }
 
 
-
-/*************************/
-/* PROJECTS */
-/************************/
-
-.project-box {
-  border: #d9d1c7 solid 1px;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-}
-
-.project-body {
-  padding: 0 4rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;  
-}
-
-
-
-
-
-.btn,
-.btn:link,
-.btn:visited {
-  display: inline-block;
-
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
-
-  /* Only necessary for .btn */
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-
-  /* Put transition on original "state" */
-  /* transition: background-color 0.3s; */
-  transition: all 0.3s;
-}
-
-.cta-btn:link,
-.cta-btn:visited {
-  background-color: #8d7456;
-  color: #fff;
-  text-align: center;
-}
-
-.cta-btn:hover,
-.cta-btn:active {
-  background-color: #998369;
-}
-
-
-
-
-
-
-
 /*************************/
 /* FOOTER */
 /************************/

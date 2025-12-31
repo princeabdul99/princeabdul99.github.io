@@ -274,41 +274,6 @@ title: "Home"
 </section>
 
 
-
-<!-- ===================== Projects New ===================== -->
-<section id="projects" class="section">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="heading-secondary">🚀 Projects</h2>
-      <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">All repos →</a>
-    </div>
-    <div class="gallery">
-      <article class="project-box">
-        <a class="thumb" href="{{ item.link }}" target="_blank" rel="noopener" aria-label="Open project">
-          <img src="{{ item.image | default: '/assets/images/placeholder_project.jpg' | relative_url }}"
-                alt="{{ item.title | escape }} thumbnail" loading="lazy">
-        </a>    
-        <div class="project-body">
-          <h3 class="project-box-title">Global Fashion Retail</h3>
-          <p class="project-box-description">
-            Architected and implemented an automated data pipeline to
-            extract raw data from AWS S3, ingest into Snowflake, and
-            transform it into optimized reporting models. This enabled
-            real-time analytics, reduced data latency, and ensured high data
-            quality across countries.
-          </p>
-          <div class="project-box-footer">
-            <a href="#" class="btn ">preview</a>
-            <a href="#" class="btn cta-btn">visit</a>      
-          </div>        
-        </div>      
-      </article>    
-    </div>
-  </div>
-</section>
-
-
-
 <!-- Tiny helper script for arrow buttons -->
 <script>
 (function () {
