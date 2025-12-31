@@ -146,21 +146,11 @@ scalable products:
     name="checkmark-circle-outline"
     ></ion-icon>
     <div>
-    <span>Data Ingestion:</span>
-    <p>DLT</p>
+    <span>Data Ingestion & Transformation:</span>
+    <p>DLT, DBT</p>
     </div>
 </li>
 
-<li class="list-item--tool">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon>
-    <div>
-    <span>Data Transformation:</span>
-    <p>DBT</p>
-    </div>
-</li>
 <li class="list-item--tool">
     <ion-icon
     class="icon"

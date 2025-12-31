@@ -157,6 +157,7 @@
 .list-item--tool {
   display: flex;
   align-items: top;
+  align-items: start;
 }
 
 .list-item span,
