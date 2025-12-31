@@ -47,7 +47,7 @@ title: "Home"
 
 <!-- ====================== Skills  ===================== -->
 
-<section class="section-skill">
+<section id="skills" class="section-skill">
 <div class="container">
 <h2 class="heading-secondary">Building Digital Experiences</h2>
 <p class="skill-description">
