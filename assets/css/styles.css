@@ -144,7 +144,7 @@ a { color: #1a140d; text-decoration: none; }
   margin-bottom: .8rem;
 }
 
-.view-all { font-size: .95rem; }
+.view-all { font-size: 2rem; }
 
 .gallery {
   display:grid;
@@ -175,7 +175,12 @@ a { color: #1a140d; text-decoration: none; }
 
 .card:hover .thumb img { transform: scale(1.02); }
 
-.card-body { padding: 1rem 1rem 1.2rem; }
+.card-body { 
+  padding: 1rem 1rem 1.2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 .card-title {
   margin: 0 0 .35rem;
