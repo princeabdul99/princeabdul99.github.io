@@ -25,7 +25,7 @@ title: "Home"
 
     <div class="about-text">
       <h1  class="heading-primary">Hello, I'm Abubakar Abdullahi</h1>
-      <p class="hero-description">Data Engineer | ETL/ELT Developer </p>
+      <p class="hero-description">Data Engineer | ETL/ELT Developer | Software Developer </p>
       <p class="hero-description">I build practical, production-like data engineering systems — orchestration, storage, transformations, serving, and observability — then explain the decisions behind them.</p>
       <p class="hero-description"><strong>Core skills:</strong> Python · SQL · DBT · Airflow · Spark · BigQuery · Docker · GCP · Snowflake</p>
 
@@ -80,14 +80,7 @@ business:
     class="icon"
     name="checkmark-circle-outline"
     ></ion-icon
-    ><span>Fullstack Web Development</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Mobile App Development</span>
+    ><span>ETL Workflow</span>
 </li>
 <li class="list-item">
     <ion-icon
@@ -101,7 +94,14 @@ business:
     class="icon"
     name="checkmark-circle-outline"
     ></ion-icon
-    ><span>ETL Workflow</span>
+    ><span>Fullstack Web Development</span>
+</li>
+<li class="list-item">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon
+    ><span>Mobile App Development</span>
 </li>
 </ul>
 </div>
@@ -124,8 +124,8 @@ scalable products:
     name="checkmark-circle-outline"
     ></ion-icon>
     <div>
-    <span>Data Engineering:</span>
-    <p>Azure, AWS, Snowflake</p>
+    <span>Data Storage:</span>
+    <p>Postgres, GCP, Snowflake, AWS, Azure</p>
     </div>
 </li>
 
@@ -135,8 +135,8 @@ scalable products:
     name="checkmark-circle-outline"
     ></ion-icon>
     <div>
-    <span>Backend:</span>
-    <p>Node.js, FastAPI, MongoDB, PostgreSQL</p>
+    <span>Orchestration:</span>
+    <p>Apache Airflow</p>
     </div>
 </li>
 
@@ -146,8 +146,8 @@ scalable products:
     name="checkmark-circle-outline"
     ></ion-icon>
     <div>
-    <span>Mobile App:</span>
-    <p>Flutter</p>
+    <span>Data Ingestion:</span>
+    <p>DLT</p>
     </div>
 </li>
 
@@ -157,8 +157,18 @@ scalable products:
     name="checkmark-circle-outline"
     ></ion-icon>
     <div>
-    <span>Frontend:</span>
-    <p>HTML/CSS, SASS, React, NextJs</p>
+    <span>Data Transformation:</span>
+    <p>DBT</p>
+    </div>
+</li>
+<li class="list-item--tool">
+    <ion-icon
+    class="icon"
+    name="checkmark-circle-outline"
+    ></ion-icon>
+    <div>
+    <span>Others:</span>
+    <p>Docker, Python, Power BI, Apache Superset</p>
     </div>
 </li>
 </ul>
@@ -194,7 +204,7 @@ scalable, and high-performance analytics:
     class="icon"
     name="checkmark-circle-outline"
     ></ion-icon
-    ><span>Cloud Integration (AWS, Azure)</span>
+    ><span>Cloud Integration (GCP, Snowflake, AWS, Azure)</span>
 </li>
 <li class="list-item">
     <ion-icon
