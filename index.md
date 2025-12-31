@@ -25,7 +25,7 @@ title: "Home"
 
     <div class="about-text">
       <h1  class="heading-primary">Hello, I'm Abubakar Abdullahi</h1>
-      <p class="hero-description">Data Engineer | ETL/ELT Developer | Software Developer </p>
+      <p class="hero-description"> <strong>Data Engineer</strong> | <strong>ETL/ELT Developer</strong> | <strong>Software Developer</strong> </p>
       <p class="hero-description">I build practical, production-like data engineering systems — orchestration, storage, transformations, serving, and observability — then explain the decisions behind them.</p>
       <p class="hero-description"><strong>Core skills:</strong> Python · SQL · DBT · Airflow · Spark · BigQuery · Docker · GCP · Snowflake</p>
 
@@ -48,165 +48,164 @@ title: "Home"
 <!-- ====================== Skills  ===================== -->
 
 <section id="skills" class="section-skill">
-<div class="container">
-<h2 class="heading-secondary">Building Digital Experiences</h2>
-<p class="skill-description">
-I bring creativity and logic together to turn concepts into
-meaningful, functional solutions.
-</p>
-<div class="grid grid--3-cols">
+  <div class="container">
+    <h2 class="heading-secondary">Building Digital Experiences</h2>
+    <p class="skill-description">
+    I bring creativity and logic together to turn concepts into
+    meaningful, functional solutions.
+    </p>
+    <div class="grid grid--3-cols">
+
+
+      <div class="skill">
+        <h3 class="heading-tertiary heading-title">
+        <ion-icon class="icon" name="code-slash-outline"></ion-icon
+        ><span>What I can do</span>
+        </h3>
+        <p class="skill-subheading">
+        I can help develop solutions that will help you grow your
+        business:
+        </p>
+        <ul class="list">
+          <li class="list-item">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon
+              ><span>Data Engineering</span>
+          </li>
+          <li class="list-item">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon
+              ><span>ETL Workflow</span>
+          </li>
+          <li class="list-item">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon
+              ><span>API Integration</span>
+          </li>
+          <li class="list-item">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon
+              ><span>Fullstack Web Development</span>
+          </li>
+          <li class="list-item">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon
+              ><span>Mobile App Development</span>
+          </li>
+        </ul>
+      </div>
 
 
 
-<div class="skill">
-<h3 class="heading-tertiary heading-title">
-<ion-icon class="icon" name="code-slash-outline"></ion-icon
-><span>What I can do</span>
-</h3>
-<p class="skill-subheading">
-I can help develop solutions that will help you grow your
-business:
-</p>
-<ul class="list">
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Data Engineering</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>ETL Workflow</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>API Integration</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Fullstack Web Development</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Mobile App Development</span>
-</li>
-</ul>
-</div>
+      <div class="skill">
+        <h3 class="heading-tertiary heading-title">
+        <ion-icon name="construct-outline"></ion-icon
+        ><span>Tools I Use</span>
+        </h3>
+        <p class="skill-subheading">
+        I use the latest tools and technologies to build functional and
+        scalable products:
+        </p>
+        <ul class="list">
+          <li class="list-item--tool">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon>
+              <div>
+              <span>Data Storage:</span>
+              <p>Postgres, GCP, Snowflake, AWS, Azure</p>
+              </div>
+          </li>
+
+          <li class="list-item--tool">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon>
+              <div>
+              <span>Orchestration:</span>
+              <p>Apache Airflow</p>
+              </div>
+          </li>
+
+          <li class="list-item--tool">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon>
+              <div>
+              <span>Data Ingestion & Transformation:</span>
+              <p>DLT, DBT, Spark</p>
+              </div>
+          </li>
+
+          <li class="list-item--tool">
+              <ion-icon
+              class="icon"
+              name="checkmark-circle-outline"
+              ></ion-icon>
+              <div>
+              <span>Others:</span>
+              <p>Docker, Python, Power BI, Apache Superset</p>
+              </div>
+          </li>
+        </ul>
+      </div>
 
 
-
-<div class="skill">
-<h3 class="heading-tertiary heading-title">
-<ion-icon name="construct-outline"></ion-icon
-><span>Tools I Use</span>
-</h3>
-<p class="skill-subheading">
-I use the latest tools and technologies to build functional and
-scalable products:
-</p>
-<ul class="list">
-<li class="list-item--tool">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon>
-    <div>
-    <span>Data Storage:</span>
-    <p>Postgres, GCP, Snowflake, AWS, Azure</p>
+      <div class="skill">
+        <h3 class="heading-tertiary heading-title">
+        <ion-icon name="logo-buffer"></ion-icon
+        ><span>Data Engineer</span>
+        </h3>
+        <p class="skill-subheading">
+        I design and build efficient data solutions for accurate,
+        scalable, and high-performance analytics:
+        </p>
+          <ul class="list">
+            <li class="list-item">
+                <ion-icon
+                class="icon"
+                name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Scalable ETL/ELT Pipelines</span>
+            </li>
+            <li class="list-item">
+                <ion-icon
+                class="icon"
+                name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Data Modeling & Warehousing</span>
+            </li>
+            <li class="list-item">
+                <ion-icon
+                class="icon"
+                name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Cloud Integration (GCP, Snowflake, AWS, Azure)</span>
+            </li>
+            <li class="list-item">
+                <ion-icon
+                class="icon"
+                name="checkmark-circle-outline"
+                ></ion-icon
+                ><span>Workflow Automation & Optimization</span>
+            </li>
+          </ul>
+      </div>
     </div>
-</li>
-
-<li class="list-item--tool">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon>
-    <div>
-    <span>Orchestration:</span>
-    <p>Apache Airflow</p>
-    </div>
-</li>
-
-<li class="list-item--tool">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon>
-    <div>
-    <span>Data Ingestion & Transformation:</span>
-    <p>DLT, DBT, Spark</p>
-    </div>
-</li>
-
-<li class="list-item--tool">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon>
-    <div>
-    <span>Others:</span>
-    <p>Docker, Python, Power BI, Apache Superset</p>
-    </div>
-</li>
-</ul>
-</div>
-
-
-<div class="skill">
-<h3 class="heading-tertiary heading-title">
-<ion-icon name="logo-buffer"></ion-icon
-><span>Data Engineer</span>
-</h3>
-<p class="skill-subheading">
-I design and build efficient data solutions for accurate,
-scalable, and high-performance analytics:
-</p>
-<ul class="list">
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Scalable ETL/ELT Pipelines</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Data Modeling & Warehousing</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Cloud Integration (GCP, Snowflake, AWS, Azure)</span>
-</li>
-<li class="list-item">
-    <ion-icon
-    class="icon"
-    name="checkmark-circle-outline"
-    ></ion-icon
-    ><span>Workflow Automation & Optimization</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
+  </div>
 </section>
 
 
