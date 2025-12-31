@@ -160,6 +160,7 @@ a { color: #1a140d; text-decoration: none; }
   box-shadow: var(--shadow);
   display:flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .thumb { display:block; position: relative; }
