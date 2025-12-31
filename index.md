@@ -147,7 +147,7 @@ scalable products:
     ></ion-icon>
     <div>
     <span>Data Ingestion & Transformation:</span>
-    <p>DLT, DBT</p>
+    <p>DLT, DBT, Spark</p>
     </div>
 </li>
 
