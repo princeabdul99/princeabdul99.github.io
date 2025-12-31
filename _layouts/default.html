@@ -18,9 +18,27 @@
     <main class="content">
       {{ content }}
     </main>
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
       <p>© {{ site.time | date: '%Y' }} {{ site.author }}</p>
-    </footer>
+    </footer> -->
+    <footer class="footer">
+      <div class="container grid grid--2-cols">
+        <div class="user">
+          <p class="name">{{ site.author }}</p>
+          <p class="copyright">
+            Copyright &copy; {{ site.time | date: '%Y' }} by Abdul. All rights reserved.
+          </p>
+        </div>
+        <div class="social-links">
+          <a href="#">
+            <ion-icon class="cta-link--icon" name="logo-github"></ion-icon>
+          </a>
+          <a href="#" class=""
+            ><ion-icon class="cta-link--icon" name="logo-linkedin"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </footer>    
     <script>
       // Smooth scroll
       document.querySelectorAll('a[href^="#"]').forEach(a => {
