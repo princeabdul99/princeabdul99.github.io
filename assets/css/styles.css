@@ -158,7 +158,7 @@ a { color: #1a140d; text-decoration: none; }
   border: 1px solid var(--border);
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: var(--shadow);
+  /* box-shadow: var(--shadow); */
   display:flex;
   flex-direction: column;
   justify-content: space-between;  

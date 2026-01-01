@@ -263,11 +263,11 @@ title: "Home"
   </div>
 </section> -->
 
-<!-- ===================== Cetificates ===================== -->
+<!-- ===================== Projects ===================== -->
 <section id="projects" class="section">
   <div class="container">
     <div class="section-header">
-      <h2 class="heading-secondary">🚀 Certifications</h2>
+      <h2 class="heading-secondary">🚀 Projects</h2>
       <a class="view-all" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">All repos →</a>
     </div>
   {% assign projects_count = site.data.projects | size %}
