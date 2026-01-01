@@ -195,8 +195,7 @@ a { color: #1a140d; text-decoration: none; }
   gap:.5rem;
 
   display:flex;
-  justify-content: center;
-  align-self: flex-end;
+  justify-content: space-around;
 }
 
 .card-title {

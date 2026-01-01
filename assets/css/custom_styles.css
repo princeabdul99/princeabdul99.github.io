@@ -250,3 +250,77 @@
   align-items: center;
   gap: 2.4rem;
 }
+
+
+
+
+/* CERT - PROJEC */
+
+.project-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4.8rem;
+}
+
+.projects {
+  padding: 0 4rem;
+  border: #d9d1c7 solid 1px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-type {
+  font-size: 1.8rem;
+  color: #1a140d;
+  margin: 2rem 0;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-type span {
+  background-color: #8d7456;
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem 1.2rem;
+  border-radius: 100px;
+}
+
+.tech-stack {
+  text-transform: uppercase;
+  color: #1a140d;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.tech-stack-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0.8rem 0 2.4rem 0;
+}
+.tech-item ion-icon {
+  color: #1a140d;
+}
+
+.tech-item .databricks {
+  color: #fa5252;
+}
+
+.tech-item .snowflake {
+  color: #339af0;
+}
+
+.visit-project {
+  display: block;
+  border-top: 0.5px solid #d9d1c7;
+  color: #1a140d;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 1.8rem 0;
+  text-decoration: none;
+}
