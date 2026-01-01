@@ -265,13 +265,13 @@
 
 .projects {
   border: #d9d1c7 solid 1px;
-  background-color: #f2f0ec; /*test*/
+  background-color: #f2f0ec; 
   /* border-radius: 12px; */
   border-radius: 16px;
-  overflow: hidden;  
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */ /*test*/
     /* padding: 0 4rem; */
 }
 
