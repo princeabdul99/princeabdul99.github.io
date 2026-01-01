@@ -264,12 +264,12 @@
 }
 
 .projects {
-  padding: 0 4rem;
   border: #d9d1c7 solid 1px;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+    /* padding: 0 4rem; */
 }
 
 .project-type {
@@ -295,6 +295,7 @@
   color: #1a140d;
   font-size: 1.4rem;
   font-weight: 500;
+  padding: 0 4rem;
 }
 
 .tech-stack-list {
@@ -321,6 +322,6 @@
   color: #1a140d;
   font-size: 1.4rem;
   font-weight: 500;
-  padding: 1.8rem 0;
+  padding: 1.8rem 4rem;
   text-decoration: none;
 }
