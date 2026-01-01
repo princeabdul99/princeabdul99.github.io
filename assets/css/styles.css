@@ -176,14 +176,26 @@ a { color: #1a140d; text-decoration: none; }
 
 .card:hover .thumb img { transform: scale(1.02); }
 
+.card-content {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;    
+}
+
 .card-body { 
   padding: 1rem 1rem 1.2rem;
 }
 .card-footer{
   margin-bottom: 1.5rem;
+
+}
+
+.card-actions {
+  margin-top: .8rem;
+  gap:.5rem;
+
   display:flex;
-  /* gap:.5rem; */
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .card-title {
@@ -211,13 +223,7 @@ a { color: #1a140d; text-decoration: none; }
   padding: 0 1rem
 }
 
-.card-actions {
-  margin-top: .8rem;
-  gap:.5rem;
 
-  display:flex;
-  justify-content: center;
-}
 
 .btn {
   display:inline-block;
