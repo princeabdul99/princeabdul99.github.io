@@ -153,14 +153,15 @@ a { color: #1a140d; text-decoration: none; }
 }
 
 .card {
-  background: var(--panel);
+  /* background: var(--panel); */
+  background-color: #f2f0ec;
   border: 1px solid var(--border);
   border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow);
   display:flex;
   flex-direction: column;
-  /* justify-content: space-between;   */
+  justify-content: space-between;  
 }
 
 .thumb { display:block; position: relative; }
@@ -174,7 +175,7 @@ a { color: #1a140d; text-decoration: none; }
   transition: transform .15s ease;
 }
 
-.projects:hover .thumb img { transform: scale(1.02); }
+.card:hover .thumb img { transform: scale(1.02); }
 
 .card-content {
   display:flex;
