@@ -25,7 +25,7 @@ title: "Home"
     <div class="about-text">
       <h1  class="heading-primary">Hello, I'm Abubakar Abdullahi</h1>
       <p class="hero-description"> <strong>Data Engineer</strong> | <strong>ETL/ELT Developer</strong> | <strong>Software Developer</strong> </p>
-      <p class="hero-description">I build practical, production-like data engineering systems — orchestration, storage, transformations, serving, and observability — then explain the decisions behind them.</p>
+      <p class="hero-description">I design and build practical, production-grade data engineering systems, encompassing workflow orchestration, data storage and modeling, transformation pipelines, data serving layers, and observability. My focus is on delivering reliable, high-performance analytics and reporting solutions that scale in real-world environments.</p>
       <!-- <p class="hero-description"><strong>Core skills:</strong> Python · SQL · DBT · Airflow · Spark · BigQuery · Docker · GCP · Snowflake</p> -->
       <p class="social-links">
         <a href="https://www.linkedin.com/in/abubakar-abdullahi" target="_blank" aria-label="LinkedIn">
@@ -284,12 +284,15 @@ title: "Home"
               <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
               <p class="card-text">{{ item.description }}</p>
               <ul class="tech-stack-list">
+                {% if item.stack %}
                 <li class="tech-item">
-                  <ion-icon name="snow" class="icon snowflake"></ion-icon>
+                  <p class="card-tags">{{ item.stack }}</p>
+                  <!-- <ion-icon name="snow" class="icon snowflake"></ion-icon> -->
                 </li>
-                <li class="tech-item">
+                {% endif %}
+                <!-- <li class="tech-item">
                   <ion-icon class="icon" name="logo-github"></ion-icon>
-                </li>
+                </li> -->
               </ul>
               <div class="visit-project">
                 {% if item.screenshot %}<a href="#" class="preview" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>{% endif %}
@@ -311,12 +314,18 @@ title: "Home"
           <h3 class="card-title"><a href="{{ item.link }}" target="_blank" rel="noopener">{{ item.title }}</a></h3>
           <p class="card-text">{{ item.description }}</p>
           <ul class="tech-stack-list">
+            {% if item.stack %}
             <li class="tech-item">
+              <p class="card-tags">{{ item.stack }}</p>
+              <!-- <ion-icon name="snow" class="icon snowflake"></ion-icon> -->
+            </li>
+            {% endif %}          
+            <!-- <li class="tech-item">
               <ion-icon name="snow" class="icon snowflake"></ion-icon>
             </li>
             <li class="tech-item">
               <ion-icon class="icon" name="logo-github"></ion-icon>
-            </li>
+            </li> -->
           </ul>
           <div class="visit-project">
             {% if item.screenshot %}<a href="#" class="preview" data-lightbox-src="{{ item.screenshot | relative_url }}">Preview</a>{% endif %}
