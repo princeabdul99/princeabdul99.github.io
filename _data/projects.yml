@@ -1,3 +1,20 @@
+- title: "End-to-End Data Engineering Pipeline on GCP"
+  link: "https://github.com/princeabdul99/gcp_global_fashion_data_pipeline"
+  description: "This project demonstrates the design and implementation of a production-grade, 
+                end-to-end data engineering pipeline on Google Cloud Platform (GCP). 
+                The pipeline ingests raw data from Google Cloud Storage (GCS), 
+                processes it through a medallion architecture (Bronze, Silver, Gold) using BigQuery, 
+                and delivers analytics-ready datasets visualized in Looker Studio.
+
+                The solution is fully automated, containerized, and orchestrated with Apache Airflow, 
+                reflecting real-world data engineering best practices around scalability, reliability, 
+                and analytics performance."
+  stack: "GCP · BigQuery · Apache Airflow · Python · Medallion Architecture · Docker  · Github · Looker Studio"
+  image: "/assets/images/gcs-dashboard.png"
+  preview_gif: "/assets/images/gcs-dashboard.png"
+  screenshot: "/assets/images/gcp-dags-pipeline.png"
+
+
 - title: "Global Fashion Retail"
   link: "https://github.com/princeabdul99/global_fashion_retail_dwh_snowflake"
   description: "Architected and implemented an automated data pipeline to
