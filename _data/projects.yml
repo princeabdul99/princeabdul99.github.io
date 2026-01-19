@@ -8,7 +8,7 @@
   stack: "GCP · Apache Airflow · Medallion Architecture · Docker  · Github · Looker Studio"
   image: "/assets/images/gcp-architecture.png"
   preview_gif: "/assets/images/gcp-architecture.png"
-  screenshot: "/assets/images/gcp-dags-pipeline.png"
+  screenshot: "/assets/images/gcp-architecture.png"
 
 
 - title: "Global Fashion Retail"
